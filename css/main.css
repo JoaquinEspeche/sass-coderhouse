@@ -19,7 +19,7 @@ main {
   main p {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 25px; }
-  main img {
+  main .sas-img {
     border: 5px solid black;
     width: 500px;
     animation-name: SASS-IMG;
@@ -31,6 +31,17 @@ main {
     transform: scale(0.5); }
   100% {
     transform: scale(1); } }
+  main .bgcolor--discord {
+    background-color: black; }
+  main .bgcolor--instagram {
+    background-color: white; }
+  main .redes, main .discord, main .instagram {
+    width: 10%;
+    margin: 100px; }
+  main .discord {
+    border: 5px solid white; }
+  main .instagram {
+    border: 5px solid black; }
 
 footer {
   justify-content: center;
